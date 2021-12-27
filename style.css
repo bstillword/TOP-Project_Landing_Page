@@ -1,0 +1,34 @@
+﻿body {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.test{
+    display:flex;
+    
+}
+.header-top {
+    display: flex;
+    background-color: rgba(130, 130, 130, .9);
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 0px;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+a {
+    font-size: 18px;
+}
+
