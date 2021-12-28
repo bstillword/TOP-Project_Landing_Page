@@ -100,7 +100,7 @@ button:hover {
     min-height: 225px;
     align-items: center;
     justify-content: center;
-    gap: 52px;
+    gap: 30px;
 }
 .bottom-quote {
     background: #E5E7EB;
