@@ -1,34 +1,134 @@
 ﻿body {
+    height: 100vh;
+    margin: 0;
+    flex: 1;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header, .footer, .info {
+    display: flex;
+    background: #1F2937;
+}
+.btm-info -> .text{
+    min-height: 70px;
+}
+.btm-info img{
+    border-radius: 10px;
+    padding: 0px;
+    border: 3px solid #1F2937;
+    background: #1F2937;
+}
+.footer{
     justify-content: space-between;
+}
+.btm-info {
+    align-content: center;
+    width: 250px;
+}
+
+.bottom-half{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 0px;
+    text-align: center;
 }
-.test{
-    display:flex;
-    
+.top-half {
+    display: flex;
+}
+.info {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding-bottom: 20px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.img{
+    flex: 1;
+    align-items: center;
+    justify-items: center;
+}
+.text{
+    display: flex;
+    flex:1;
+}
+.topleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px;
 }
 .header-top {
     display: flex;
-    background-color: rgba(130, 130, 130, .9);
+    max-height: 70px;
     justify-content: space-between;
+    background: #1F2937;
     align-items: center;
     flex-grow: 1;
     padding: 10px;
     margin: 0px;
 }
-.header-links {
+button {
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;   
+}
+button:hover {
+    transition: ease;
+    transition-duration: 30ms;
+    background: #58A2F6;
+    color: #293AA8;
+}
+.content {
+    flex: 1;
     display: flex;
+    justify-content: center;
+}
+.bottom-content {
+    background: #B9CAF8;
+    display: flex;
+    flex: 1;
+    min-height: 225px;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+.bottom-quote {
+    background: #E5E7EB;
+    display: flex;
+    flex: 1;
+    min-height: 225px;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+.info{
+    flex: 1;
+    width: 300px;
+}
+.header-links {
+    display: inline-block;
     align-items: center;
 }
 ul {
-    list-style: none;
     display: flex;
-    gap: 20px;
-    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
 }
 a {
     font-size: 18px;
+    text-decoration:none;
+    color: #E5E7EB;
 }
 
